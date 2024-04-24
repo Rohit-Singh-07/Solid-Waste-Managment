@@ -11,13 +11,13 @@ function Home() {
         <div
           data-scroll
           data-scroll-speed="-.5"
-          className="w-[100vw] flex justify-around items-center h-[100vh]"
+          className="w-[100vw] flex justify-around items-center h-[100vh] sm:flex-row flex-col sm:py-0 py-[10vh]"
         >
-          <h1 className="text-[2vw] w-[30vw]">
+          <h1 className="sm:text-[2vw] text-[7vw] sm:w-[30vw] w-[70vw]">
             Better Solutions For The Waste Around You!
           </h1>
           <img
-            className="w-[30vw] z-0"
+            className="sm:w-[30vw] w-[70vw] z-0"
             src="https://cdn.downtoearth.org.in/library/large/2016-05-23/0.42611000_1463993925_book-cover.jpg"
             alt=""
           />
@@ -28,7 +28,7 @@ function Home() {
         <img
         data-scroll
         data-scroll-speed="-1"
-          className="w-[100vw]"
+          className="sm:w-[100vw] h-[100vh]"
           src="https://portfolio.cept.ac.in/assets/projects/visuals/2017/3025/visual_20170426140848_slide6.jpg"
           alt=""
         />

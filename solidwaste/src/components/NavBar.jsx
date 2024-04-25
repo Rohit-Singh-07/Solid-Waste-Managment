@@ -17,6 +17,20 @@ function NavBar() {
         Contribute
       </NavLink>
       <NavLink
+        to="/publications"
+        className={({ isActive }) => (isActive ? "shadow-[2px_2px_7px_3px_#4359CF83] py-[0.2vw] px-[1vw]" : "hover:text-zinc-100")}
+      >
+        Publications
+      </NavLink>
+
+      <NavLink
+        to="/faq"
+        className={({ isActive }) => (isActive ? "shadow-[2px_2px_7px_3px_#4359CF83] py-[0.2vw] px-[1vw]" : "hover:text-zinc-100")}
+      >
+        FAQs
+      </NavLink>
+
+      <NavLink
         to="/about"
         className={({ isActive }) => (isActive ? "shadow-[2px_2px_7px_3px_#4359CF83] py-[0.2vw] px-[1vw]" : "hover:text-zinc-100")}
       >

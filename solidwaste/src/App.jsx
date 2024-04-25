@@ -5,6 +5,8 @@ import About from './components/About'
 import Home from './components/Home'
 import Contribute from './components/Contribute'
 import LocomotiveScroll from 'locomotive-scroll';
+import Publications from './components/Publications'
+import FAQ from './components/FAQ'
 
 function App() {
 
@@ -17,7 +19,9 @@ function App() {
      <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="contribute" element={<Contribute/> } />
+        <Route path="/contribute" element={<Contribute/> } />
+        <Route path="/publications" element={<Publications/> } />
+        <Route path="/faq" element={<FAQ/> } />
      </Routes>
     </>
   )

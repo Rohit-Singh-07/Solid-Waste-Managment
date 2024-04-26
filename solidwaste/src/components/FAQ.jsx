@@ -5,7 +5,7 @@ export default function FAQ() {
   return (
     <div className='flex justify-center items-center flex-col h-[100vh] gap-[2vw]'>
       <div className="w-[80vw]">
-      <select className='p-[1vw] w-full rounded-md rounded-md shadow-[0_10px_20px_rgba(8,_112,_184,_0.7)]' defaultValue="all" name="format" id="format">
+      <select className='p-[1vw] w-full rounded-md shadow-[0_10px_20px_rgba(8,_112,_184,_0.7)]' defaultValue="all" name="format" id="format">
         <option value={"all"} >{"How can I reduce the amount of waste I produce?"}</option>
         <option value={"all"} >{"Reduce consumption, reuse items when possible, and recycle materials."}</option> 
       </select>
